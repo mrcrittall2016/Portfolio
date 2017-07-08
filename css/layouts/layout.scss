@@ -1,0 +1,38 @@
+/***************************
+****************************
+Layout Styles
+****************************
+***************************/
+
+[class *= "col-md-"]{
+    /*border:1px solid red; */
+    /*height:100px;*/
+}
+
+.container, 
+.container-fluid {         
+    margin:0 auto;   
+    padding:0;    
+}
+
+.container {
+    max-width:960px; 
+}
+
+/* Ensure row stays within bounds of container */
+.row {
+    margin:0;         
+}
+
+.col-md-6 {
+    padding:0; 
+}
+
+.flexbox {  
+
+  @include flexbox-display();
+
+}
+
+
+
