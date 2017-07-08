@@ -1,0 +1,58 @@
+
+/***************************
+****************************
+Base Styles
+****************************
+***************************/
+
+/* Base styles */
+html, 
+body {
+    /* Margin, padding, height and width settings ensure html/body extends to far reaches of window */
+    margin:0;
+    padding:0;    
+    min-height:100%; 
+    width:100%; 
+    font-family:"Montserrat", arial, sans-serif;      
+}
+
+body {    
+    min-height:100vh; /*If not enough content on page, ensures body at least reaches base of view...but still leaves whitespace. If do not fill the rest of the page then need to create sticky footer*/  
+}
+
+h1 {
+    text-transform:uppercase;  
+    font-weight:bold; 
+    font-size:20px; 
+}
+
+h2 {
+    font-size:14px; 
+    line-height:1.5; 
+    font-weight:bold; 
+    text-transform:uppercase; 
+    letter-spacing:2px;
+}
+
+p {
+    font-size:12px; 
+    text-transform:uppercase; 
+    letter-spacing:2px;
+}
+
+a {
+    text-decoration:none; 
+    color:#000;   
+    transition:font-weight 0.5s;  
+    border:none;    
+}
+
+a:hover {
+   @extend a; 
+   font-weight:bold;
+}
+
+a:focus{
+    @extend a; 
+    outline:none;    
+}

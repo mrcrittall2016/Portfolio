@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Dr Matthew R. Crittall</title>
+
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width=device-width, intial-scale = 1">
+
+        <!--Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <!--Fonts -->
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Oswald|Source+Code+Pro|Tangerine" rel="stylesheet">
+
+        <!-- link to own stylesheet -->
+        <link rel = "stylesheet" type = "text/css" href = "/css/css-main_3.css"/>
+
+         <!-- cdn link to fontawesome -->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+
+        <!-- Link to external js file containing portfolio descriptions -->
+        <script src = "/js/portfolio_history.js"></script>
+
+        <!-- Link to page's own Javascript" -->
+        <script src = "/js/portfolio.js"> </script>
+
+    </head>
+
+    <body>  
+        <div class = "return"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></div>
+        <div class = "border"></div>
+        <div class = "header">
+            <div class = "container-fluid">
+                <h1><a href = "home.php">Dr Matthew R. Crittall</a></h1>
+                <p>Senior Scientist/Medicinal Chemist/Web Designer/Software Developer</p>
+                <ul class = "menu">
+                    <li><a href = "home.php#about">About</a></li>
+                    <li><a href = "resume.php">Resume</a></li>
+                    <li><a href = "portfolio.php">Portfolio</a></li>
+                    <li><a href = "home.php#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class = "portfolio">
+            <div class = "container">
+                <article class = "entry">
+                    <div class = "entry-content">
+                        <h1>Portfolio</h1>
+                        <p>Computer Science and Web Design projects</p>
+                        <div class = "row">                      
+                            <div class = "col-md-6">
+                                <a data-toggle="modal" href="#myModal" id = "C">
+                                    <div class = "outer-box">
+                                        <img src = "../images_portfolio/mario3.jpg"/>  
+                                        <div class = "inner-box">
+                                            <h4>LEARN MORE</h4>
+                                        </div>                              
+                                    </div>                             
+                                    <h4>C</h4>
+                                </a>                                                     
+                            </div>
+                            <div class = "col-md-6">     
+                                 <a data-toggle="modal" href="#myModal" id = "Crypto">                           
+                                    <div class = "outer-box">
+                                        <img src = "../images_portfolio/vigenere2.jpg"/>   
+                                        <div class = "inner-box">
+                                            <h4>LEARN MORE</h4>
+                                        </div>           
+                                    </div>                               
+                                    <h4>Crypto</h4> 
+                                </a>
+                            </div>
+                        </div>   
+                        <div class = "row">                      
+                            <div class = "col-md-6">
+                                 <a data-toggle="modal" href="#myModal" id = "Game of Fifteen">
+                                    <div class = "outer-box">
+                                        <img src = "../images_portfolio/fifteen2.jpg"/>   
+                                        <div class = "inner-box">
+                                            <h4>LEARN MORE</h4>
+                                        </div>               
+                                    </div>                                  
+                                    <h4>Game of Fifteen</h4>  
+                                </a>                            
+                            </div>
+                            <div class = "col-md-6">  
+                                 <a data-toggle="modal" href="#myModal" id = "Forensics">                              
+                                    <div class = "outer-box">
+                                        <img src = "../images_portfolio/forensics2.jpg"/> 
+                                        <div class = "inner-box">
+                                            <h4>LEARN MORE</h4>
+                                        </div>            
+                                    </div>                                
+                                    <h4>Forensics</h4> 
+                                 </a>
+                            </div>
+                        </div>   
+                        <div class = "row">                      
+                            <div class = "col-md-6">
+                                 <a data-toggle="modal" href="#myModal" id = "Mispellings">
+                                    <div class = "outer-box">
+                                        <img src = "../images_portfolio/dictionary2.jpg"/>       
+                                        <div class = "inner-box">
+                                            <h4>LEARN MORE</h4>
+                                        </div>       
+                                    </div>                                 
+                                    <h4>Mispellings</h4> 
+                                </a>                            
+                            </div>
+                            <div class = "col-md-6">  
+                                 <a data-toggle="modal" href="#myModal" id = "Web Server">                              
+                                    <div class = "outer-box">
+                                        <img src = "../images_portfolio/Server2.jpg"/>   
+                                        <div class = "inner-box">
+                                            <h4>LEARN MORE</h4>
+                                        </div>          
+                                    </div>                               
+                                    <h4>Web Server</h4>
+                                </a>
+                            </div>
+                        </div> 
+                        <div class = "row">                      
+                            <div class = "col-md-6">
+                                 <a data-toggle="modal" href="#myModal" id = "CS50 Finance">
+                                    <div class = "outer-box">
+                                        <img src = "../images_portfolio/stock2.jpg"/>  
+                                        <div class = "inner-box">
+                                            <h4>LEARN MORE</h4>
+                                        </div>        
+                                    </div>                                
+                                    <h4>CS50 Finance</h4>   
+                                </a>                        
+                            </div>
+                            <div class = "col-md-6"> 
+                                 <a data-toggle="modal" href="#myModal" id = "Mashup">                               
+                                    <div class = "outer-box">
+                                        <img src = "../images_portfolio/mashup2.jpg"/> 
+                                        <div class = "inner-box">
+                                            <h4>LEARN MORE</h4>
+                                        </div>         
+                                    </div>                               
+                                    <h4>MashUp</h4>
+                                </a>
+                            </div>
+                        </div>  
+                        <div class = "row">                      
+                            <div class = "col-md-6">
+                                 <a data-toggle="modal" href="#myModal" id = "History Maps">
+                                    <div class = "outer-box">
+                                        <img src = "../images_portfolio/maps2.jpg"/>   
+                                        <div class = "inner-box">
+                                            <h4>LEARN MORE</h4>
+                                        </div>       
+                                    </div>                                   
+                                    <h4>History Maps - CS50 Final Project</h4>  
+                                </a>                                            
+                            </div>                            
+                        </div>                         
+                    </div>
+                </article>  
+                <div class="modal fade modal-customise" id="myModal" role="dialog">
+                    <div class="modal-dialog">                                    
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title"></h4>
+                        </div>
+                        <div class="modal-body"></div>
+                        <div class="modal-footer"></div>
+                    </div>                                    
+                    </div>
+                </div>               
+            </div>
+        </div>
+        <div class = "supporting-3">
+            <div class = "container-fluid">
+                <ul class = "menu-secondary">
+                    <li><img src = "../images_portfolio/moody2.jpg"/></li>
+                    <li><img src = "../images_portfolio/party2.jpg"/></li>
+                    <li><img src = "../images_portfolio/cyprus3.jpg"/></li>
+                    <li><img src = "../images_portfolio/cyprus4.jpg"/></li>
+                    <li><img src = "../images_portfolio/alps2.jpg"/></li>
+                    <li><img src = "../images_portfolio/guitar2.jpg"/></li>
+                    <li><img src = "../images_portfolio/running3.jpg"/></li>
+                    <li><img src = "../images_portfolio/boat2.jpg"/></li>                    
+                </ul>
+            </div>
+        </div>
+        <div class = "supporting-4">
+            <div class = "container">
+                <ul class = "menu menu-primary">
+                    <li><a href = "https://github.com/mrcrittall2016"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
+                    <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                    <li><a href = "https://www.linkedin.com/in/matthew-crittall-0ba83654/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                    <li><a href = "https://www.facebook.com/mattcrittall"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                </ul>
+                <p>Connect</p>
+            </div>
+        </div>       
+        <div class = "supporting-5">
+            <div class = "container"></div>
+            <p>Copyright 2017 Matthew R. Crittall</p>
+        </div>        
+    </body>    
+</html>

@@ -1,0 +1,1 @@
+$(function(){$(".return").css("display","none"),$(".return").click(function(){$("html, body").animate({scrollTop:0},900)}),$(window).scroll(function(){$(window).scrollTop()>200?$(".return").fadeIn("slow"):$(".return").fadeOut("slow")})});
