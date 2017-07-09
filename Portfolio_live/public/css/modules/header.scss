@@ -1,0 +1,29 @@
+/***************************
+Header
+***************************/
+
+/* Header section */
+.header {
+
+    @include position_margin_padding (center, 0, 0);
+    color:#000;    
+
+   .container-fluid {
+     margin:150px 0 200px;
+   }
+
+   h1 {
+      font-size:26px;  
+      letter-spacing:10px;   
+
+      @include extra-small-only {
+        margin-bottom:30px; 
+        line-height:1.5;            
+      }    
+   }
+
+   p {
+     margin-bottom:50px; 
+   } 
+
+}

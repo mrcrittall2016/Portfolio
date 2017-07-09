@@ -1,0 +1,29 @@
+
+/* Border at top of page */
+.border {
+    height:10px; 
+    background-color:#000; 
+}
+
+/* Background class */
+
+/* See here how to position a background image and adjust its opacity: https://scotch.io/tutorials/how-to-change-a-css-background-images-opacity */
+.background {          
+    position: relative;    
+    overflow: hidden;   
+    height:800px;    
+}
+
+.background:before {
+    background: url("../images_portfolio/spiral2.jpg") no-repeat fixed center center;
+    background-size:cover;
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.2;
+}

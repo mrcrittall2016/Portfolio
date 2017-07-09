@@ -1,0 +1,62 @@
+
+
+   var portfolio = {
+
+        "C" : {
+            "title" : "C",
+            "description" : "My first every computer science project demonstrates three very simple programs written in C. The first, water.c, is a program that prompts the user for the length of his or her shower in minutes (as a positive integer) and then prints the equivalent number of bottles of water (as an integer). The second, mario.c, prints a half-pyramid of hash symbols, the height of which is specified by the user’s input. The third, greedy.c, asks a user how much change is owed from a hypothetical transaction and then calculates the minimum number of coins with which said change can be made. The source code for each can be found here:",
+            "link" : "CS50 PSet1 – First programs in C"
+        },
+
+        "Crypto" : {
+            "title" : "Crypto",
+            "description" : "Another series of programs written in C based on cryptology. The first, caeser.c,is a program that encrypts messages using Caesar’s cipher. The program accepts separately two command-line arguments from the user: a non-negative integer called “k” and then a line of plain-text. The program proceeds to rotate each letter of the plain text by k positions, thus encrypting the message. The second program, vigenere.c, encrypts messages using Vigenère’s cipher. Each character in a string of plain text is rotated through the alphabet k times, whereby k represents a letter of a separate line of plain text. The source code for each program can be found here:",
+            "link" : "CS50 PSet2 – Cryptology in C"
+        },
+
+        "Game" : {
+            "title" : "Game of Fifteen",
+            "description" : "A puzzle played on a square, two-dimensional board with numbered tiles that slide. The goal of this puzzle is to arrange the board’s tiles from smallest to largest, left to right, top to bottom, with an empty space in the board’s bottom-right corner. The game is re-created here in C code and can be found here:",
+            "link" : "CS50 PSet3 – Game of Fifteen"
+        },
+
+        "Forensics" : {
+            "title" : "Forensics",
+            "description" : "Another series of programs written in C, making use of File I/O, memory management as well as structs. The first program, whodunit.c, copies a BMP file, whereby all the pixels are red to mask a hidden image beneath. This image is revealed by converting all of the red pixels to white. The second program, resize.c, resizes a 24-bit uncompressed BMP by a factor of n. Finally, the third program, recover.c, scans a CompactFlash (CF) card for “deleted” JPEG files and recovers them to the current working directory. The source code for each program can be found here:",
+            "link" : "CS50 PSet4 – Manipulation of image files using C"
+        },
+
+        "Mispellings" : {
+            "title" : "Mispellings",
+            "description" : "The challenge associated with this project was to build the fastest spell-checker possible in C. This is achieved through the program, speller.c, which is designed to load a dictionary of words from disc into memory and then identify which of these words are present in various texts, for example the written script for “Austin Powers:International Man of Mystery”. The source code can be found here:",
+            "link" : "CS50 PSet5 – Building the fastest spell-checker possible in C"
+        },
+
+        "Server" : {
+            "title" : "Web Server",
+            "description" : "This project involved completing the implementation of a web server program, written in C code. The source code can be found here:",
+            "link" : "CS50 PSet6 – Implementing a web server program using C"
+        },
+
+        "Finance" : {
+            "title" : "CS50 Finance",
+            "description" : "C$50 Finance is a website built using PHP and designed to act as a web-based tool for users to manage portfolios of stocks. Users can register for an account, enabling them to check real-time stock values as well as “buy” and “sell” said stocks. Users’ details, as well as a history of their transactions and current stocks owned, are stored in a MySQL database. PHP is used to communicate between this back-end “model” and the front-end “view”, which are the webpages served to the user in the form of html and CSS. It is also used to communicate directly with Yahoo, to retrieve stock information in the form of a CSV file which can be parsed for the required data and returned as an associative array. Additional features of the site include enabling users who are already logged in to change their passwords, or empowering the user to deposit additional funds in their account. For simplicity, no Javascript was used in this project. A link to the completed website can be found here:",
+            "link":"CS50 PSet7 – C$50 Finance"
+
+        },
+
+        "Mashup" : {
+            "title" : "Mashup",
+            "description" : "A link to the completed website can be found here:",
+            "link" : "CS50 PSet8 – Mashup"
+        },
+
+        "Maps" : {
+            "title" : "History Maps",
+            "description" : "CS50 Final Project",
+            "link" : "History Maps – CS50 Final Project"
+        }
+
+   }
+
+
